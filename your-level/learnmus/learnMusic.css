@@ -1,0 +1,42 @@
+
+#nav{
+    font-family: 'Open Sans', arial;
+    font-size: 15pt;
+    text-align: center;
+    font-weight:600;
+    
+}
+
+
+#nav li{
+	float:left; /* все ссылки идут слева на право */
+    position:relative;
+    list-style:none; /* убираем точки */
+    background:#800000;
+    width:344px;
+    
+}
+#nav a{
+    text-decoration:none;
+    display:block; /* делаем блочным элементов тег "a" */
+    padding:35px 45px;
+    color:#ffffff;
+}
+
+#vid{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    display: block;
+ }
+
+ #text{
+     text-align: center;
+     width: 200px;
+     font-size: 15pt;
+     margin-top: 30px;
+     margin-left: 50px;
+     float: left;
+     border-right: 2px solid black;
+ }
+

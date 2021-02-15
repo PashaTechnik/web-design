@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>learnMusic</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="learnMusic.css">
+    <link rel="stylesheet" type="text/css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="video.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+        <nav>
+                <ul class="topmenu">
+                    <li><a href="learnWordsCards.html">Учить слова</a>
+                        <ul class="submenu">
+                            <li><a href="learnWordsCards.html">Изучение слов</a></li>
+                            <li><a href="learnWordsCards.html">Словарь</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.ef.ru/angliyskie-resursy/angliyskaya-grammatika/">Тренировать грамматику</a>
+                        <ul class="submenu">
+                            <li><a href="https://english4real.com/grammar-exercises.html">Выполнять упражнения</a></li>
+                            <li><a href="https://www.ef.ru/angliyskie-resursy/angliyskaya-grammatika/">Изучение грамматики</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="learnFilms.html">Смотреть видео</a>
+                        <ul class="submenu">
+                            <li><a href="learnFilms.html">Фильмы в оригинале</a></li>
+                            <li><a href="learnMusic.html">Английский по песням</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="learnBooks.html">Читать литературу</a>
+                        <ul class="submenu">
+                            <li><a href="learnBooks.html">Книги</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+<center>
+    <h3>Выберите Фильм</h3>
+    <ul class="border">
+        <li onclick="vid1()"  style="cursor:pointer;">Avengers: Infinity War</li>
+        <li onclick="vid2()"  style="cursor:pointer;">Venom</li>
+        <li onclick="vid3()"  style="cursor:pointer;">Ready Player One</li>
+        <li onclick="vid4()"  style="cursor:pointer;">Fantastic Beasts: The Crimes of Grindelwald</li>
+        <li onclick="vid5()"  style="cursor:pointer;">Bohemian Rhapsody</li>
+    </ul>
+    <ul class="border">
+        <li onclick="vid6()" style="cursor:pointer;">Pirates of the Caribbean: Dead Men Tell No Tales</li>
+        <li onclick="vid7()"  style="cursor:pointer;">Gladiator</li>
+        <li onclick="vid8()"  style="cursor:pointer;">Saving Private Ryan</li>
+        <li onclick="vid9()"  style="cursor:pointer;">Gifted</li>
+        <li onclick="vid10()"   style="cursor:pointer;">John Wick</li>
+    </ul>
+    <ul class="border">
+        <li onclick="vid11()"   style="cursor:pointer;">The Wolf of Wall Street</li>
+        <li onclick="vid12()"   style="cursor:pointer;">Titanic</li>
+        <li onclick="vid13()"   style="cursor:pointer;">It</li>
+        <li onclick="vid14()"   style="cursor:pointer;">The Lion King</li>
+        <li onclick="vid15()"   style="cursor:pointer;">Peaky Blinders</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+</center>
+<h3 id="content">Фильм</h3>
+<video width="1000" id="vid" controls src="http://164.68.107.131/2019/Ave2018.mp4" ></video>
+
+</body>
+
+</html>

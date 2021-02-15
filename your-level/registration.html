@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>learnPages</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h2>Learning English With Native English Speakers From Oxford(KPI)</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Создайте Аккаунт</h1>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button id="signUp1">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Войти</h1>
+                
+                <span>используйте свои данные</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button onClick='location.href="index.html"'>Sign In</button>
+                <br>
+                <audio controls>
+                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+                        <source src="brigada.mp3" type="audio/mpeg">
+                        <a href="brigada.mp3"></a>
+                      </audio>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Для начала изучения английского войдите в свой аккаунт</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Введите свои персональные данные для начала</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+
+</html>
