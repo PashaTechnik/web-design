@@ -3,27 +3,48 @@ function displayLab1()
 {
     document.getElementById("lab-list1").hidden = false;
     document.getElementById("lab-list2").hidden = true;
+    document.getElementById("lab-list3").hidden = true;
+    document.getElementById("lab-list4").hidden = true;
 }
 
 function displayLab2()
 {
     document.getElementById("lab-list1").hidden = true;
     document.getElementById("lab-list2").hidden = false;
+    document.getElementById("lab-list3").hidden = true;
+    document.getElementById("lab-list4").hidden = true;
 }
 
 function displayLab3()
 {
-    document.getElementById("lab").innerHTML = "ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №"+ "3"
+    document.getElementById("lab-list1").hidden = true;
+    document.getElementById("lab-list2").hidden = true;
+    document.getElementById("lab-list3").hidden = false;
+    document.getElementById("lab-list4").hidden = true;
 }
 
 function displayLab4()
 {
-    document.getElementById("lab").innerHTML = "ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №"+ "4"
+    document.getElementById("lab-list1").hidden = true;
+    document.getElementById("lab-list2").hidden = true;
+    document.getElementById("lab-list3").hidden = true;
+    document.getElementById("lab-list4").hidden = false;
 }
 
-function displayLab5()
-{
-    document.getElementById("lab").innerHTML = "ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №"+ "5"
+
+$(document).ready(function(){ 
+    document.getElementById("lab-list2").hidden = true; 
+    document.getElementById("lab-list3").hidden = true; 
+    document.getElementById("lab-list4").hidden = true; 
+}) 
+
+
+function showGit(){
+    document.getElementById("img").src="report screens/git.png"
+    document.getElementById("link").href = "https://github.com/PashaTechnik/web-design"
 }
 
-$(document).ready(function(){ document.getElementById("lab-list2").hidden = true; }) 
+function showRep(){
+    document.getElementById("img").src="report screens/rep.png"
+    $('#link').removeAttr('href')
+}
