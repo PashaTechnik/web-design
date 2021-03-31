@@ -1,100 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
-    <title>Reports</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <title>Reports</title>
 </head>
+
 <body>
 
-<h2>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ <br>
+  <h2>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ <br>
     З ДИЦИПЛІНИ "WEB-ТЕХНОЛОГІЇ" <br>
     ІП-81 Жердій Павло
-</h2>
+  </h2>
 
-<header>
+  <header>
     <ul id="horizontal-list">
-        <li><a href="#" type="button" onclick="displayLab1()">Lab 1</a></li>
-        <li><a href="#" type="button" onclick="displayLab2()">Lab 2</a></li>
-        <li><a href="#" type="button" onclick="displayLab3()">Lab 3</a></li>
-        <li><a href="#" type="button" onclick="displayLab4()">Lab 4</a></li>
-        <li><a href="#" type="button" onclick="displayLab5()">Lab 5</a></li>
-      </ul>
-</header>
-
-<section id="lab-list1">
-  <nav id="vertical-list">
-    <ul>
-      <li id="lab" onclick="javascript:img.src='report screens/report1.png'" ><a>ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №1</a></li>
-      <li onclick="javascript:img.src='report screens/report2.png'"><a>Середовище розробки</a></li>
-      <li onclick="showGit()"><a>Місце розташування сайту</a></li>
-      <li onclick="showRep()"><a>Опис предметного середовища</a></li>
-      <li onclick="javascript:img.src='report screens/report3.png'"><a>Зовнішній вигляд сайту HTML-Файли</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report3.png'"><a>HTML-код таблиць</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report4.png'"><a>HTML-код форми</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report5.png'"><a>HTML-код зображення</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report6.png'"><a>HTML-код заголовків</a></li>
-      <li onclick="javascript:img.src='report screens/report8.png'"><a>Використана література</a></li>
-      <li onclick="javascript:img.src='report screens/report7.png'"><a>Висновки</a></li>
+      <li><a href="#" type="button" onclick="displayLab1()">Lab 1</a></li>
+      <li><a href="#" type="button" onclick="displayLab2()">Lab 2</a></li>
+      <li><a href="#" type="button" onclick="displayLab3()">Lab 3</a></li>
+      <li><a href="#" type="button" onclick="displayLab4()">Lab 4</a></li>
+      <li><a href="#" type="button" onclick="displayLab5()">Lab 5</a></li>
+      <li><a href="#" type="button" onclick="displayLab6()">Lab 6</a></li>
     </ul>
-  </nav>
-</section>
+  </header>
 
-<section  id="lab-list2">
-  <nav id="vertical-list">
-    <ul>
-      <li onclick="javascript:img.src='report screens/report2_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №2</a></li>
-      <li onclick="javascript:img.src='report screens/report2_2.png'"><a>Списки</a></li>
-      <li onclick="javascript:img.src='report screens/report2_3.png'"><a>Ідентифікатори</a></li>
-      <li onclick="javascript:img.src='report screens/report2_4.png'"><a>Плаваючі елементи</a></li>
-      <li onclick="javascript:img.src='report screens/report2_5.png'"><a>Селектори</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report2_5.png'"><a>Селектори тегу і класу</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report2_6.png'"><a>Інші елементи</a></li>
-      <li id="indent" onclick="javascript:img.src='report screens/report2_7.png'"><a>Групування селекторів</a></li>
-      <li onclick="javascript:img.src='report screens/report2_8.png'"><a>Висновки</a></li>
-    </ul>
-  </nav>
-</section>
-
-<section  id="lab-list3">
+  <section id="lab-list1">
     <nav id="vertical-list">
       <ul>
-        <li onclick="javascript:img.src='report screens/report3_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №3</a></li>
+        <li id="lab" onclick="javascript:img.src='report screens/report1.png'"><a>ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи
+            №1</a></li>
+        <li onclick="javascript:img.src='report screens/report2.png'"><a>Середовище розробки</a></li>
+        <li onclick="showGit()"><a>Місце розташування сайту</a></li>
+        <li onclick="showRep()"><a>Опис предметного середовища</a></li>
+        <li onclick="javascript:img.src='report screens/report3.png'"><a>Зовнішній вигляд сайту HTML-Файли</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report3.png'"><a>HTML-код таблиць</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report4.png'"><a>HTML-код форми</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report5.png'"><a>HTML-код зображення</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report6.png'"><a>HTML-код заголовків</a></li>
+        <li onclick="javascript:img.src='report screens/report8.png'"><a>Використана література</a></li>
+        <li onclick="javascript:img.src='report screens/report7.png'"><a>Висновки</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="lab-list2">
+    <nav id="vertical-list">
+      <ul>
+        <li onclick="javascript:img.src='report screens/report2_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної
+            роботи №2</a></li>
+        <li onclick="javascript:img.src='report screens/report2_2.png'"><a>Списки</a></li>
+        <li onclick="javascript:img.src='report screens/report2_3.png'"><a>Ідентифікатори</a></li>
+        <li onclick="javascript:img.src='report screens/report2_4.png'"><a>Плаваючі елементи</a></li>
+        <li onclick="javascript:img.src='report screens/report2_5.png'"><a>Селектори</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report2_5.png'"><a>Селектори тегу і класу</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report2_6.png'"><a>Інші елементи</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report2_7.png'"><a>Групування селекторів</a></li>
+        <li onclick="javascript:img.src='report screens/report2_8.png'"><a>Висновки</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="lab-list3">
+    <nav id="vertical-list">
+      <ul>
+        <li onclick="javascript:img.src='report screens/report3_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної
+            роботи №3</a></li>
         <li onclick="javascript:img.src='report screens/report3_2.png'"><a>Зовнішній вигляд макету</a></li>
         <li onclick="javascript:img.src='report screens/report3_3.png'"><a>HTML-код макету</a></li>
-        <li id="indent" onclick="javascript:img.src='report screens/report3_3.png'"><a>Розмітка сторінки за допомогою таблиці</a></li>
-        <li id="indent" onclick="javascript:img.src='report screens/report3_4.png'"><a>Розмітка сторінки за допомогою плаваючих блоків</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report3_3.png'"><a>Розмітка сторінки за допомогою
+            таблиці</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report3_4.png'"><a>Розмітка сторінки за допомогою
+            плаваючих блоків</a></li>
         <li onclick="javascript:img.src='report screens/report3_5.png'"><a>Висновки</a></li>
       </ul>
     </nav>
   </section>
 
-  <section  id="lab-list4">
+  <section id="lab-list4">
+    <nav id="vertical-list">
+      <ul>
+        <li onclick="javascript:img.src='report screens/report5_1.png'"><a>ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №4</a>
+        </li>
+        <li onclick="showGit()"><a>Місце розташування сайту</a></li>
+        <li onclick="javascript:img.src='report screens/report5_2.png'"><a>Скріншот сторінки</a></li>
+        <li onclick="javascript:img.src='report screens/report5_3.png'"><a>HTML-код сторінки</a></li>
+        <li onclick="javascript:img.src='report screens/report5_4.png'"><a>CSS-код сторінки</a></li>
+        <li onclick="javascript:img.src='report screens/report5_5.png'"><a>Висновки</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="lab-list5">
+    <nav id="vertical-list">
+      <ul>
+        <li onclick="javascript:img.src='report screens/report4_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної
+            роботи №5</a></li>
+        <li onclick="javascript:img.src='report screens/report4_2.png'"><a>Засоби функціонального застосування
+            JavaScript</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report4_2.png'"><a>Схема URL</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report4_3.png'"><a>Обробник подій</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report4_4.png'"><a>Підстановка (entity)</a></li>
+        <li id="indent" onclick="javascript:img.src='report screens/report4_5.png'"><a>Вставка (тег SCRIPT)</a></li>
+        <li onclick="javascript:img.src='report screens/report4_6.png'"><a>Масиви</a></li>
+        <li onclick="javascript:img.src='report screens/report4_7.png'"><a>Гістограмма</a></li>
+        <li onclick="javascript:img.src='report screens/report4_8.png'"><a>Висновки</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="lab-list6">
       <nav id="vertical-list">
         <ul>
-          <li onclick="javascript:img.src='report screens/report4_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №4</a></li>
-          <li onclick="javascript:img.src='report screens/report4_2.png'"><a>Засоби функціонального застосування JavaScript</a></li>
-          <li id="indent" onclick="javascript:img.src='report screens/report4_2.png'"><a>Схема URL</a></li>
-          <li id="indent" onclick="javascript:img.src='report screens/report4_3.png'"><a>Обробник подій</a></li>
-          <li id="indent" onclick="javascript:img.src='report screens/report4_4.png'"><a>Підстановка (entity)</a></li>
-          <li id="indent" onclick="javascript:img.src='report screens/report4_5.png'"><a>Вставка (тег SCRIPT)</a></li>
-          <li onclick="javascript:img.src='report screens/report4_6.png'"><a>Масиви</a></li>
-          <li onclick="javascript:img.src='report screens/report4_7.png'"><a>Гістограмма</a></li>
-          <li onclick="javascript:img.src='report screens/report4_8.png'"><a>Висновки</a></li>
+          <li onclick="javascript:img.src='report screens/report6_1.png'"><a id="lab">ПОСТАНОВКА ЗАДАЧІ Лабораторної
+              роботи №6</a></li>
+          <li onclick="javascript:img.src='report screens/report6_2.png'"><a>Динамічні елементи</a></li>
+          <li onclick="javascript:img.src='report screens/report6_3.png'"><a>Галерея UniteGallery</a></li>
+          <li id="indent" onclick="javascript:img.src='report screens/report6_4.png'"><a>Фотогалерея</a></li>
+          <li id="indent" onclick="javascript:img.src='report screens/report6_5.png'"><a>Слайдер фотографій</a></li>
+          <li id="indent" onclick="javascript:img.src='report screens/report6_6.png'"><a>Слайдер відеоматеріалів</a></li>
+          <li onclick="javascript:img.src='report screens/report6_7.png'"><a>Кнопки соціальних мереж</a></li>
+          <li onclick="javascript:img.src='report screens/report6_8.png'"><a>Інформери</a></li>
+          <li onclick="javascript:img.src='report screens/report6_9.png'"><a>Висновки</a></li>
         </ul>
       </nav>
     </section>
+  <article>
+    <a id="link"><img name="img" id="img" style="max-height: 636px; max-width:836px;"></a>
+    <img name="img1" style="max-height: 636px; max-width:836px;">
+    <img name="img2" style="max-height: 636px; max-width:836px;">
+    <img name="img3" style="max-height: 636px; max-width:836px;">
+    <img name="img4" style="max-height: 636px; max-width:836px;">
+  </article>
 
-<article>
-  <a id = "link"><img name="img" id = "img" style="max-height: 636px; max-width:836px;"></a>
-  <img name="img1" style="max-height: 636px; max-width:836px;">
-  <img name="img2" style="max-height: 636px; max-width:836px;">
-  <img name="img3" style="max-height: 636px; max-width:836px;">
-  <img name="img4" style="max-height: 636px; max-width:836px;">
-</article>
 
 
 </body>
+
 </html>

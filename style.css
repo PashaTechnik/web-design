@@ -24,7 +24,7 @@
   }
 
   ul#horizontal-list {
-	min-width: 696px;
+	min-width: 400px;
 	list-style: none;
     padding-top: 20px;
 	}
@@ -33,7 +33,7 @@
     border-radius: 5px;
     display: inline;
     list-style-type: none;
-    padding: 10px 30px;
+    padding: 10px 5px;
     background-color: rgb(0, 0, 255);
     }
 
